@@ -1,0 +1,14 @@
+name: Deploy Portfolio
+on:
+  push:
+    branches:
+      - main  # O la rama que uses
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Pull latest changes
+        run: |
+          cd ~/Desktop/portfolio
+          git pull origin main
