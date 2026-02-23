@@ -5,7 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Biel Garcia - Ingeniero Informático</title>
+    <title>Portfolio Biel Garcia</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap"
@@ -217,7 +219,8 @@
                         <p class="ml-6">contact: <span class="text-green-400">"bielsbd@icloud.com"</span>,</p>
                         <p class="ml-6">phone: <span class="text-green-400">"633 26 23 18"</span>,</p>
                         <p class="ml-6">hobbies: [<span class="text-green-400">"Tennis, SnowBoard"]</span>,</p>
-                        <p class="ml-6">languages: [<span class="text-green-400">"Catalan", "Spanish", "English"</span>],</p>
+                        <p class="ml-6">languages: [<span class="text-green-400">"Catalan", "Spanish",
+                                "English"</span>],</p>
                         <p>}</p>
                         <p class="mt-4"><span class="text-secondary font-bold">engineer</span>.<span
                                 class="text-accent">buildFuture</span>(); <span
@@ -328,7 +331,11 @@
                                 <h4 class="text-2xl font-bold text-slate-900 mb-1">IT Applications Development Intern
                                 </h4>
                                 <p class="text-lg font-semibold text-primary mb-4">Occident</p>
-                                <p class="text-slate-600 mb-6 leading-relaxed relative z-10"> Formo parte del equipo de Arquitectura de IT, donde diseño y desarrollo soluciones integrales para los desafíos técnicos de diversos departamentos. Como desarrollador Full Stack, me encargo del ciclo completo de las aplicaciones, desde la lógica en el backend hasta el frontend.</p>
+                                <p class="text-slate-600 mb-6 leading-relaxed relative z-10"> Formo parte del equipo de
+                                    Arquitectura de IT, donde diseño y desarrollo soluciones integrales para los
+                                    desafíos técnicos de diversos departamentos. Como desarrollador Full Stack, me
+                                    encargo del ciclo completo de las aplicaciones, desde la lógica en el backend hasta
+                                    el frontend.</p>
                                 <div class="flex flex-wrap gap-2 relative z-10">
                                     <span
                                         class="px-3 py-1 text-xs font-bold font-code rounded-lg bg-white border border-slate-200 shadow-sm">.NET
@@ -399,7 +406,9 @@
                                     Servicios</h4>
                                 <p class="text-lg font-semibold text-secondary mb-4">Escola Universitaria Gimbernat -
                                     UAB</p>
-                                <p class="text-slate-600 mb-6 leading-relaxed relative z-10">Aprendizaje orientado a todo el ciclo de vida del software, con especial énfasis en la arquitectura y la ingeniería de servicios.</p>
+                                <p class="text-slate-600 mb-6 leading-relaxed relative z-10">Aprendizaje orientado a
+                                    todo el ciclo de vida del software, con especial énfasis en la arquitectura y la
+                                    ingeniería de servicios.</p>
                                 <div class="flex flex-wrap gap-2 relative z-10">
                                     <span
                                         class="px-3 py-1 text-xs font-bold font-code rounded-lg bg-white border border-slate-200 shadow-sm">Ingeniería
@@ -432,9 +441,11 @@
                                     class="inline-block px-3 py-1 mb-4 text-xs font-code font-bold text-slate-600 bg-slate-200/50 rounded-full">2021
                                     - 2023</span>
                                 <h4 class="text-2xl font-bold text-slate-900 mb-1">Bachillerato Nacional</h4>
-                                <p class="text-lg font-semibold text-slate-500 mb-4">Agora Sant Cugat International School
+                                <p class="text-lg font-semibold text-slate-500 mb-4">Agora Sant Cugat International
+                                    School
                                 </p>
-                                <p class="text-slate-600 relative z-10">Educación bilingüe con enfoque en la resolución de problemas y el pensamiento crítico.</p>
+                                <p class="text-slate-600 relative z-10">Educación bilingüe con enfoque en la resolución
+                                    de problemas y el pensamiento crítico.</p>
                             </div>
                         </div>
 
@@ -489,7 +500,11 @@
                                 <h4 class="text-2xl font-bold text-slate-900 mb-1">Fundador & Desarrollador</h4>
                                 <p class="text-lg font-semibold text-purple-600 mb-4">Estudio de Desarrollo en Roblox
                                 </p>
-                                <p class="text-slate-600 mb-6 leading-relaxed relative z-10">Mantengo un laboratorio personal de desarrollo de videojuegos que hoy funciona como un proyecto comercial de assets técnicos. Esta faceta me permite explorar arquitecturas complejas y, a la vez, liderar a otros freelancers, coordinando el trabajo en equipo para asegurar que el producto final mantenga el nivel de pulido y excelencia que me autoexijo.</p>
+                                <p class="text-slate-600 mb-6 leading-relaxed relative z-10">Mantengo un laboratorio
+                                    personal de desarrollo de videojuegos que hoy funciona como un proyecto comercial de
+                                    assets técnicos. Esta faceta me permite explorar arquitecturas complejas y, a la
+                                    vez, liderar a otros freelancers, coordinando el trabajo en equipo para asegurar que
+                                    el producto final mantenga el nivel de pulido y excelencia que me autoexijo.</p>
                                 <div class="flex flex-wrap gap-2 relative z-10">
                                     <span
                                         class="px-3 py-1 text-xs font-bold font-code rounded-lg bg-white border border-slate-200 shadow-sm">Rendimiento</span>
@@ -719,6 +734,7 @@
             easing: 'ease-out-quart'
         });
 
+        // Título dinámico
         // Efecto "hover glow" para las tarjetas
         document.querySelectorAll('.hover-glow').forEach(card => {
             card.onmousemove = e => {
@@ -728,6 +744,15 @@
                 card.style.setProperty("--mouse-x", `${x}px`);
                 card.style.setProperty("--mouse-y", `${y}px`);
             }
+        });
+
+        // Título dinámico
+        const originalTitle = document.title;
+        window.addEventListener('blur', () => {
+            document.title = "¡No te vayas! 👨‍💻";
+        });
+        window.addEventListener('focus', () => {
+            document.title = originalTitle;
         });
     </script>
 </body>
